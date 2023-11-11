@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwali Greetings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="Recording 2023-11-11 231115.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <section class="fireworks" id="sec1">
+        <div class="title">
+            <h2>
+                Happy <c>Diwali</c>
+            </h2>
+            <p><span>Wishing you a festival of lights.</span></p>
+        </div>
+
+        <div class="name">
+            <h2>
+                <c>@abhijit</c>motekar
+            </h2>
+        </div>
+
+        <a href="jetha.html" class="bn5">Surprise</a>
+
+        <footer class="footer">
+            Created by Abhijit Motekar, motekarabhijit@gmail.com
+        </footer>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tholman/fireworks@2.0.1/dist/jquery.fireworks.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.fireworks').fireworks({
+                sound: true, // sound effect
+                opacity: 0.9,
+                width: '100%',
+                height: '100%'
+            });
+        });
+    </script>
+</body>
+</html>
